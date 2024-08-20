@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Your exercise starts here. */
+/* In this exercise, you will learn how to use the top, right, bottom, and left properties. Position the squares according to their description. Make sure to include the position property where necessary. */
+
+main {
+  width: 100vw;
+  height: 100vh;
+}
+
+p {
+  text-align: center;
+}
+
+.top-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 10vh;
+  width: 10vw;
+  background-color: #aed6f1;
+}
+
+.top-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top: 0px;
+  left: 45vw;
+
+  height: 10vh;
+  width: 10vw;
+  background-color: #85c1e9;
+}
+
+.top-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+  height: 10vh;
+  width: 10vw;
+  background-color: #5dade2;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 45vh;
+  left: 45vw;
+
+  height: 10vh;
+  width: 10vw;
+  background-color: #3498db;
+}
+
+.bottom-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+
+  height: 10vh;
+  width: 10vw;
+  background-color: #2874a6;
+}
+
+.bottom-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0px;
+  left: 45vw;
+
+  height: 10vh;
+  width: 10vw;
+  background-color: #21618c;
+}
+
+.bottom-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+
+  height: 10vh;
+  width: 10vw;
+  background-color: #1b4f72;
+}

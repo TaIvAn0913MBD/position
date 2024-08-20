@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .Fixed {
+        height: 15vh;
+        width: 15vw;
+        background-color: blue;
+        position: fixed;
+        top: 5px;
+        left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 5px dashed orange;
+      }
+      .Absolute {
+        height: 15vh;
+        width: 15vw;
+        background-color: red;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 5px dashed orange;
+      }
+      .Sticky {
+        height: 15vh;
+        width: 15vw;
+        background-color: green;
+        position: sticky;
+        top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 5px dashed orange;
+      }
+    </style>
+  </head>
+  <body style="height: 5000px">
+    <div class="Fixed">
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: black;
+          color: white;
+          height: 10vh;
+          width: 10vh;
+        "
+      >
+        box 4
+      </div>
+    </div>
+    <div class="Absolute">Absolute</div>
+    <div class="Sticky" style="margin-top: 30vh; margin-left: 85vw">Sticky</div>
+  </body>
+</html>
